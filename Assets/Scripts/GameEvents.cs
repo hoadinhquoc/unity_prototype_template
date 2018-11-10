@@ -5,8 +5,18 @@ using System;
 public class GameEvents {
 
 	public static Action GAME_START;
-}
+	public static Action GAME_OVER;
+	public static Action GAME_PAUSE;
+	public static Action GAME_REVIVE;
 
+	public static Action<int> SCORE_INCREASE;
+}
+public class GameplayEvents{
+	public static Action MC_DEATH;
+}
+public class UIEvents{
+	
+}
 public static class ActionExt
 {
 	public static void Raise(this Action action)
