@@ -15,7 +15,9 @@ public class GameplayEvents{
 	public static Action MC_DEATH;
 }
 public class UIEvents{
-	
+	public static Action<UIDefine.Menu> OPEN_MENU;
+	public static Action CLOSE_MENU;
+	public static Action RESULT_TO_MAIN_MENU;
 }
 public static class ActionExt
 {
