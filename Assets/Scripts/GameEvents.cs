@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System;
+using UnityEngine;
 
 public class GameEvents {
 
@@ -13,6 +14,7 @@ public class GameEvents {
 }
 public class GameplayEvents{
 	public static Action MC_DEATH;
+	public static Action<Vector3> CAMERA_CHANGED_POSITION;
 }
 public class UIEvents{
 	public static Action<UIDefine.Menu> OPEN_MENU;
