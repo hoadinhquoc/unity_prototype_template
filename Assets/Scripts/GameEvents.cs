@@ -15,6 +15,7 @@ public class GameEvents {
 public class GameplayEvents{
 	public static Action MC_DEATH;
 	public static Action<Vector3> CAMERA_CHANGED_POSITION;
+	public static Action<ControlAction> INPUT_CONTROL;
 }
 public class UIEvents{
 	public static Action<UIDefine.Menu> OPEN_MENU;
